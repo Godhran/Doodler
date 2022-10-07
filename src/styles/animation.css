@@ -1,0 +1,27 @@
+#open-button{
+
+    transition: all 1s;
+}
+
+#open-button .enable-animation{
+    animation: expand-and-retreat 5s; /* other keywords like "infinite alternate" can be useful here */
+}
+
+
+@keyframes expand-and-retreat {
+    0% {
+        opacity:1;
+      transform: scale(1)
+    }
+    /* Adding a step in the middle */
+    25% {
+        opacity:1;
+        transform: translateY(0);
+        transform: scale(1.5);
+    }
+    100% {
+        opacity:0;
+        transform: translateY(-250);
+        transform: scale(1);
+    }
+  }

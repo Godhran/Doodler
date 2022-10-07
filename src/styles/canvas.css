@@ -1,0 +1,12 @@
+#react-sketch-canvas__canvas-background{
+    fill:transparent;
+}
+
+.ui-button{
+    cursor:pointer !important;
+    margin-bottom:10px;
+}
+
+.canvas-container{
+    /* cursor:none; */
+}
